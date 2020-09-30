@@ -1,2 +1,14 @@
+//Items
 item.compressed_iron.name=Compressed Iron Ingot
+
+
+//Blocks
+tile.compressed_iron_block.name=Compressed Iron Block
+
+
+
+
+
+
+//Creative Tab
 itemGroup.genesistab=Genesis
