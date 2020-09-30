@@ -1,5 +1,6 @@
 package skamr.genesis;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -9,6 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import skamr.genesis.proxy.CommonProxy;
+import skamr.genesis.tabs.GenesisTab;
 import skamr.genesis.util.Reference;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
@@ -17,6 +19,9 @@ public class Main
 
 	@Instance
 	public static Main instance;
+	
+	
+	public static final CreativeTabs genesistab = new GenesisTab("genesistab");
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
