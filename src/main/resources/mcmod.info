@@ -1,14 +1,14 @@
 [
 {
   "modid": "genesis",
-  "name": "Genesis",
-  "description": "A mod that adds generators and power systems.",
-  "version": "0.1",
-  "mcversion": "1.12.2",
-  "url": "",
+  "name": "\u00A76Genesis",
+  "description": "\u00A79A mod that adds generators and power systems.",
+  "version": "\u00A7c0.1",
+  "mcversion": "\u00A7c1.12.2",
+  "url": "\u00A7d https://skamr.tk",
   "updateUrl": "",
-  "authorList": ["Skamr"],
-  "credits": "myself",
+  "authorList": ["\u00A7bSkamr"],
+  "credits": "\u00A75Myself",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
