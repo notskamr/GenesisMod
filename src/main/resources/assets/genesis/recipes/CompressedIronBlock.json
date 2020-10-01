@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "genesis:compressed_iron"
+        }
+    },
+    
+    "result":
+    {
+        "item": "genesis:compressed_iron_block",
+        "count": 1
+    }
+}

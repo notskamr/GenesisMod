@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "genesis:blocks/iron_furnace_top",
+        "front": "genesis:blocks/iron_furnace_front_off",
+        "side": "genesis:blocks/iron_furnace_side"
+    }
+}

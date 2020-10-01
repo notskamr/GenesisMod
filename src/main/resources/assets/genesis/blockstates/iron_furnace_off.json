@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=north": { "model": "genesis:iron_furnace_off" },
+        "facing=south": { "model": "genesis:iron_furnace_off", "y": 180 },
+        "facing=west":  { "model": "genesis:iron_furnace_off", "y": 270 },
+        "facing=east":  { "model": "genesis:iron_furnace_off", "y": 90 }
+    }
+}
+

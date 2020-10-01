@@ -8,10 +8,11 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import skamr.genesis.proxy.CommonProxy;
 import skamr.genesis.tabs.GenesisTab;
 import skamr.genesis.util.Reference;
+import skamr.genesis.util.handlers.GUIHandler;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main 
@@ -36,9 +37,12 @@ public class Main
 	@EventHandler
 	public static void Init(FMLInitializationEvent event) 
 	{
-		
-		
+	    NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GUIHandler());
+
 	}
+
+		
+	
 	
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event) 

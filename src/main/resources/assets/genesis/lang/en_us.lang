@@ -12,3 +12,17 @@ tile.compressed_iron_block.name=Compressed Iron Block
 
 //Creative Tab
 itemGroup.genesistab=Genesis
+
+
+
+
+//Tiles
+tile.iron_furnace_off.name = Iron Furnace
+tile.iron_furnace_on.name = Lit Iron Furnace
+
+
+
+
+
+//Containers
+container.iron_furnace = Iron Furnace
